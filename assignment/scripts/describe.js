@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a variable called name and set it's value to Dane.
+// Check if the name equals Mary.
+// If it is make it console log Hi Mary! Otherwise have it console log How do you do?
+// console.log should read How do you do?
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make an undefined variable called secret. Make a variable called code and set it's value to 123.
+// If code is equal to 123 make secret equal super. 
+// Within the same if statment, make code equal to code multiplied by 2.
+// If code is greater than 250 make secret = duper.
+// console.log secret which should return super.
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/* Make a variable called isStudent and set it to true, make a second one called age and set it to 34, make 
+a third called zip and set it to 55407*/
+// If isStudent equals true and the zip is over 80000, console.log `You're a student on the West Coast!`
+// If isStudent is false or the age is less than 30, cosole log 'What are your hobbies?' 
+// If isStundent is true console log 'Welcome to Prime!' Otherwise console log 'How about the weather?'
+// Console should return Welcome to Prime!
 
 //CODE
 /*
@@ -129,15 +132,32 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
-let colorOne = 'red';
+//Switch red to colorTwo and blue to colorOne
+/*let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-}
+  //Add colorTwo = 'purple'; here
+}*/
+
+
+/*I couldn't get the question above to work as an "if" statement so I made a function below.
+let colorOne = 'blue';
+let colorTwo = 'red';
+
+function mix() {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+};
+
+mix();
+
+console.log(colorOne);
+console.log(colorTwo);
 */
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -145,8 +165,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//Change const to let to allow the time to change when necessary
 const time = 4;
-
+//Change || (which means "or") to && ("and").
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,8 +180,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//Change <= to >=
 if(minAge <= age) {
+  //change the first console log to "enter" and the second to "no entry".
   console.log('no entry');
 } else {
   console.log('enter');
